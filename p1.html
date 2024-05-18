@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Our Pricing Plans</h1>
+    <p>Choose the plan that best suits your needs.</p>
+  </header>
+
+  <main>
+    <section class="pricing-card">
+      <h2>Free Plan</h2>
+      <p class="price">$<span class="value">0</span> / Month</p>
+      <ul class="features">
+        <li>Limited Features</li>
+        <li>1 User</li>
+        <li>5GB Storage</li>
+      </ul>
+      <button>Sign Up</button>
+    </section>
+
+    <section class="pricing-card featured">
+      <h2>Pro Plan</h2>
+      <p class="price">$<span class="value">19</span> / Month</p>
+      <ul class="features">
+        <li>All Features Unlocked</li>
+        <li>5 Users</li>
+        <li>50GB Storage</li>
+      </ul>
+      <button>Get Started</button>
+    </section>
+
+    <section class="pricing-card">
+      <h2>Enterprise Plan</h2>
+      <p class="price">$<span class="value">49</span> / Month</p>
+      <ul class="features">
+        <li>All Features Unlocked</li>
+        <li>Unlimited Users</li>
+        <li>Custom Storage</li>
+      </ul>
+      <button>Contact Us</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Company Name</p>
+  </footer>
+  <style>body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .pricing-card {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .pricing-card:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .featured {
+    background-color: #ddd;
+  }
+  
+  .price {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .features li {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0066cc;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  </style>
+</body>
+</html>
